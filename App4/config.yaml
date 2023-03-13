@@ -1,0 +1,18 @@
+credentials:
+  usernames:
+    jsmith:
+      email: 654@gmail.com
+      name: Test5
+      password: 654
+    rbriggs:
+      email: 789@gmail.com
+      name: Test6
+      password: 789
+  cookie:
+    expiry_days: 30
+    key: random_signature_key # Must be string
+    name: random_cookie_name
+    location: main
+  preauthorized:
+    emails:
+      - melsby@gmail.com
